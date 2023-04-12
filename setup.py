@@ -20,7 +20,7 @@ wfile()
 class AfterInstall(install):
     def run(self):
         install.run(self)
-        wfile()
+        #wfile()
         
     
 
