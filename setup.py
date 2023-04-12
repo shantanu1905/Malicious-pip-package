@@ -12,9 +12,17 @@ def  wfile():
     f.write(" !!!!!")
     f.close()
     
-wfile()
+#wfile()
 
+import requests
 
+def send():
+    url = 'http://127.0.0.1:8080'  # replace with your server URL
+    data = {'key': 'valuec sjcnjscjsjcscsckk'}  # replace with your POST data
+    response = requests.get(url, data=data)
+    print(response.content)
+
+send()
 
 
 class AfterInstall(install):
