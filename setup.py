@@ -12,7 +12,7 @@ def  wfile():
     f.write(" !!!!!")
     f.close()
     
-#wfile()
+wfile()
 
 
 
